@@ -7,7 +7,7 @@
 
 FoodMart is an Android marketplace app for home cooks and small food sellers. A single account can act as **both buyer and seller**: list your own food items, browse and order from others, and discover nearby sellers on a map.
 
-Built as the final project for *Handheld Device Programming II* (BSc (Hons) Software Engineering, Java Institute for Advanced Technology).
+Built as a project for *Handheld Device Programming II* (BSc (Hons) Software Engineering, Java Institute for Advanced Technology).
 
 ## ✨ Features
 
@@ -98,10 +98,6 @@ app/src/main/java/lk/sa/foodmart/
 - Real-time order status updates with push notifications
 - Seller ratings and reviews
 - Kotlin and Jetpack Compose migration
-
-## 📄 License
-
-Released under the [MIT License](LICENSE).
 
 ## 👤 Author
 
