@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/side_nav_group_main"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/side_nav_home"
+            android:checkable="true"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home"/>
+
+
+
+
+        <item
+            android:id="@+id/side_nav_my_orders"
+            android:checkable="true"
+            android:visible="false"
+            android:title="My Orders"
+            android:icon="@drawable/orders_24px"
+
+            />
+
+
+
+        <item
+            android:id="@+id/side_nav_cart"
+            android:checkable="true"
+            android:visible="false"
+            android:title="Cart"
+            android:icon="@drawable/baseline_shopping_cart_24"
+            />
+
+    </group>
+
+    <item
+        android:id="@+id/side_nav_seller"
+        android:title="Seller"
+        android:visible="false"
+        >
+        <menu>
+            <item
+                android:id="@+id/side_nav_seller_my_shop"
+                android:title="My Shop"
+                android:checkable="true"
+                android:visible="true"
+                android:icon="@drawable/baseline_shopping_bag_24"
+
+                />
+
+            <item
+                android:id="@+id/side_nav_seller_add_item"
+
+                android:title="Add New Item"
+                android:checkable="true"
+                android:visible="true"
+                android:icon="@drawable/baseline_add_circle_24"
+
+                />
+            <item
+                android:id="@+id/side_nav_seller_orders"
+                android:checkable="true"
+android:icon="@drawable/two_pager_store_24px"
+                android:title="Seller Orders"
+                android:visible="true"/>
+
+            <item
+                android:id="@+id/side_nav_seller_customer_questions"
+                android:checkable="true"
+android:icon="@drawable/baseline_question_answer_24"
+                android:title="Customer Questions"
+                android:visible="false"
+                />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/side_nav_account"
+        android:title="Account"
+        android:visible="false">
+        <menu>
+
+            <item
+                android:id="@+id/side_nav_profile"
+                android:checkable="true"
+                android:title="My Profile"
+                android:visible="true"
+                android:icon="@drawable/baseline_person_outline_24"
+                />
+
+
+
+
+
+
+        </menu>
+    </item>
+
+    <group
+        android:id="@+id/side_nav_group_auth"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/side_nav_login"
+            android:checkable="true"
+android:icon="@drawable/baseline_login_24"
+            android:visible="true"
+            android:title="Log In" />
+        <item
+            android:id="@+id/side_nav_logout"
+            android:checkable="true"
+android:icon="@drawable/baseline_logout_24"
+            android:title="Log Out"
+            android:visible="false" />
+
+
+
+    </group>
+
+</menu>
