@@ -1,6 +1,6 @@
 # 🍽️ FoodMart
 
-[![Android CI](https://github.com/YOUR_USERNAME/FoodMart/actions/workflows/android-build.yml/badge.svg)](https://github.com/YOUR_USERNAME/FoodMart/actions/workflows/android-build.yml)
+
 ![Platform](https://img.shields.io/badge/platform-Android-green)
 ![Language](https://img.shields.io/badge/language-Java-orange)
 ![License](https://img.shields.io/badge/license-MIT-blue)
